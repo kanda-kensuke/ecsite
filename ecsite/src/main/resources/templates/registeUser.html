@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<link href="/css/style.css" th:href="@{/css/style.css}" rel="stylesheet" />
+<title>EC Site</title>
+</head>
+<body>
+<header>
+	<h1>EC Site</h1>
+</header>
+
+<p th:text="${UserForm.userName}" />
+<p th:text="${UserForm.password}" />
+<p th:text="${UserForm.fullName}" />
+ 
+<a href="/ecsite/">登録ありがとうございました。</a>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+	margin:0;
+	padding:0;
+}
+
+header {
+	margin:0;
+	padding:0;
+	background:green;
+	color:white;
+	height:100px;
+}
+
+header * {
+	display:inline-block;
+}
+
+header h1 {
+	margin:0;
+	padding:0;
+	margin-left:20px;
+}
+
+div{
+	margin:10px;
+}
+
+font{
+	margin:10px;
+}
